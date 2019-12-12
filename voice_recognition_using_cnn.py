@@ -18,9 +18,9 @@ hopsamp = fft_size//8
 
 
 train_source_folder = os.path.join(
-    '/home/adithya/Documents/IIST/AI_ML/Club_stuff/Spoken_Numbers', 'data', 'train')
+    '.', 'data', 'train')
 test_source_folder = os.path.join(
-    '/home/adithya/Documents/IIST/AI_ML/Club_stuff/Spoken_Numbers', 'data', 'test')
+    '.', 'data', 'test')
 
 
 def get_signal(in_file, expected_fs=8000):
